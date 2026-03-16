@@ -10,7 +10,7 @@ from dataset import HDF5Dataset
 # =========================================================
 # Configuration
 # =========================================================
-SAVE_DIR = "model3/lstm2atten" 
+SAVE_DIR = "model/lstm2atten" 
 TEST_DATA_PATH = "selected_test_data_reg_horizon_1000.h5" 
 BATCH_SIZE = 8
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
